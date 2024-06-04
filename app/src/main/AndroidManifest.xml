@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AND101"
         tools:targetApi="31">
         <activity
+            android:name=".Lab2.Lab2Activity3"
+            android:exported="false" />
+        <activity
             android:name=".Lab8.Lab8Activity"
             android:exported="false" />
         <activity
@@ -49,7 +52,7 @@
             android:name=".Lab4.Lab4Activity2"
             android:exported="false" />
         <activity
-            android:name=".Lab4.Lab4Activity"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".Lab3.Lab3Activity3"
@@ -73,7 +76,7 @@
             android:name=".Lab1.Lab1Activity2"
             android:exported="false" />
         <activity
-            android:name=".Lab2.Lab2Activity3"
+            android:name=".Lab4.Lab4Activity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

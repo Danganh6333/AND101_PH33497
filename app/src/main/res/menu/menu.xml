@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="HardcodedText">
+    <item android:icon="@drawable/baseline_person_add_24"
+        android:title="Thêm Người"
+        app:showAsAction="always"
+        android:iconTint="@color/white"/>
+    <item
+        android:title="Bảng điểm"
+        android:id="@+id/item1"
+        />
+    <item
+        android:title="Điểm danh"
+        android:id="@+id/item2" />
+    <item
+        android:title="Đăng xuất"
+        android:id="@+id/item3" />
+</menu>

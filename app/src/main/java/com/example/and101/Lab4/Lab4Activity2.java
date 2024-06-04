@@ -1,6 +1,8 @@
 package com.example.and101.Lab4;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,5 +24,9 @@ public class Lab4Activity2 extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public void activity2(View view) {
+        startActivity(new Intent(Lab4Activity2.this, Lab4Activity.class));
     }
 }
